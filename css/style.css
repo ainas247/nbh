@@ -1258,8 +1258,6 @@
      color: #b5985e;
      border-color: #b5985e;
 }
- .footer-link{
-}
  .footer-link h4{
      color: #ffffff;
      font-size: 16px;
@@ -1294,7 +1292,7 @@
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
 }
- .footer-link ul li a::before {
+ /* .footer-link ul li a::before {
      font-family: FontAwesome;
      content: "\f105";
      position: absolute;
@@ -1306,7 +1304,7 @@
      -moz-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      -ms-transition: all .3s ease-in-out;
-}
+} */
  .footer-link ul li a:hover::before {
      left: 5px;
 }
