@@ -1,5 +1,6 @@
 <?php
-
+if (isset($_POST['submit'])) {
+    # code...
 $errorMSG = "";
 
 // NAME
@@ -20,7 +21,7 @@ if (empty($_POST["email"])) {
 if (empty($_POST["subject"])) {
     $errorMSG .= "Subject is required ";
 } else {
-    $subject = $_POST["guest"];
+    $subject = $_POST["subject"];
 }
 
 // MESSAGE
@@ -65,5 +66,5 @@ if ($success && $errorMSG == ""){
         echo $errorMSG;
     }
 }
-
+}
 ?>
